@@ -177,3 +177,19 @@ padding-right: 200px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 100;
 }
+
+
+/* join section styles */
+
+
+.join{
+    background-image: url(../assets/last.png);
+    background-size: cover;
+    padding: 150px;
+}
+.btn-sec{
+    background-color: #f03b1fd5;
+    color: white;
+    border: none;
+    padding: 10px;
+}
