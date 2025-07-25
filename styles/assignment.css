@@ -1,4 +1,11 @@
 
+/* header styles */
+.header{
+    max-width: 1280px;
+}
+
+
+
 /* nav styles */
 
 nav{
@@ -28,15 +35,21 @@ nav li a{
 
 /* banner styles */
 .banner{
+    padding-top: 50px;
     display: flex;
     justify-content: space-between;
-    margin: 0 80px 0 200px;
+    margin: 0 200px;
+    gap: 50px;
 }
 
 .banner-title{
     font-weight: bold;
     font-size: 50px;
-    margin-top: 130px;
+}
+
+.banner-description{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(9, 9, 9);
 }
 .clr{
     color: #f03b1fd5;
@@ -46,21 +59,55 @@ nav li a{
 }
 .banner-picture{
     width: 576px;
-    margin-bottom: 70px;
     margin-right: 60px;
 }
 
 /* PLANTS SECTION STYLES */
 
+
+.plants{
+    max-width: 1280px;
+
+}
+
+.plants-caption{
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.plant-title{
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 50px;
+    
+}
+.plant-description{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: rgb(9, 9, 9);
+}
+
+.plants-cards{
+padding-left: 200px;
+padding-right: 200px;
+}
 .container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    max-width: 1140px;
+
 }
 
 .flowers{
     align-items: center;
-    padding: 10px;
 }
 .flowers image{
     width: 100%;
@@ -72,5 +119,36 @@ nav li a{
     border: none;
     width: 50%;
     font-size: 15px;
-    padding: 10px;
+    padding: 5px;
+    align-items: center;
 }
+
+/* seller-section styles */
+
+.seller{
+    margin:100px;
+    max-width: 1100px;
+}
+
+.seller-description{
+    background-image: url(../assets/badge.png), url(../assets/trustbadge.png);
+  max-height: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left, top;
+  text-align: right;
+  justify-items: right;
+  
+}
+
+.sell-title{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+
+.seller-description ul li{
+    text-align: right;
+    color: rgba(40, 25, 25, 0.69);
+}
+    
